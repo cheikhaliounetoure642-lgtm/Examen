@@ -1,0 +1,172 @@
+body{ /* Corps de la page */
+    margin:0;
+    padding:0;
+    background-color: rgb(240, 243, 243);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+header{ /* En-tête de la page */
+    background-color:white;
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.header-left { /* Partie gauche du header */
+    display: flex;
+    align-items: center;
+}
+.img_logo img{ /* Image du logo */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+}
+.header_logo span{ /* Texte du logo */
+    font-weight: bold;
+}
+nav ul{ /* Liste de navigation */
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+li a{ /* Liens dans la navigation */
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 16px;
+   color: black;
+   font-weight: bold;
+}
+section{ /* Sections générales */
+    padding: 50px 50px;
+}
+h1{ /* Titres principaux */
+    text-align: center;
+}
+#home{ /* Section d'accueil */
+    padding: 100px;
+    text-align: center;
+    background-image: url("Image/bou\ bess\ la.jpg");
+}
+p{ /* Paragraphes */
+    line-height: 1.25em;
+}       
+.divLien a{ /* Liens dans la div des liens */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+section hr{ /* Lignes horizontales dans les sections */
+    width: 5%;
+    height: 5px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.content{ /* Conteneur principal du contenu */
+    display: flex;
+    gap: 50px;
+    margin-bottom: 8%;
+}
+.content p{ /* Paragraphes du contenu */
+    text-align: justify;        
+}
+.content-competence span{ /* Badges de compétences */
+    font-weight: bold;
+    padding: 15px;
+    background-color:lightgray;
+    gap: 5px;
+    margin: 1%;
+}
+.content-competence{ /* Conteneur des compétences */
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-left img{ /* Images du contenu gauche */
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}
+.form-content{ /* Conteneur du formulaire */
+    background: white;
+    border-radius: 5px;
+    padding: 50px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.form-nom{ /* Groupe de formulaire */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+.form-email{ /* Groupe de formulaire */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+input{
+    padding: 10px;
+}
+.form-message{ /* Groupe de formulaire */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+.form-group label{ /* Étiquettes du formulaire */
+    font-weight: bold;
+}
+.btn{ /* Boutons */
+    margin: 1%;
+    float: right;
+    padding: 10px 20px;
+
+}
+footer{ /* Pied de page */
+    background-color:rgb(12, 0, 0);
+    padding: 40px 50px;
+}
+.footer-left{ /* Partie gauche du pied de page */
+    float: left;
+    width: 45%;
+}
+.footer-right{ /* Partie droite du pied de page */
+    float: right;
+    width: 45%;
+}
+.footer-left p, .footer-right p{ /* Paragraphes du pied de page */
+    color: white;
+}
+.footer-left h3{ /* Titre du pied de page gauche */
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+} 
+.footer-right h3{ /* Titre du pied de page droit */
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+}
+footer hr{ /* Ligne horizontale du pied de page */
+    width: 100%;
+    margin: 20px;
+    height: 1px;
+    background-color: #ddd;
+}
+.copyright{ /* Texte de copyright */
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+html{ /* Comportement de défilement */
+    scroll-behavior: smooth;
+}
+ul li a:hover{ /* Effet au survol des liens */
+    color: blueviolet;
+}
